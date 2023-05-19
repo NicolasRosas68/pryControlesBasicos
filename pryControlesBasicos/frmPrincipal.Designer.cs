@@ -31,6 +31,7 @@
             this.lblejey = new System.Windows.Forms.Label();
             this.lblejex = new System.Windows.Forms.Label();
             this.lblVienvenidos = new System.Windows.Forms.Label();
+            this.cmdCambio = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblejey
@@ -66,11 +67,22 @@
             this.lblVienvenidos.Click += new System.EventHandler(this.lblVienvenidos_Click);
             this.lblVienvenidos.MouseEnter += new System.EventHandler(this.lblVienvenidos_MouseEnter);
             // 
+            // cmdCambio
+            // 
+            this.cmdCambio.Location = new System.Drawing.Point(35, 227);
+            this.cmdCambio.Name = "cmdCambio";
+            this.cmdCambio.Size = new System.Drawing.Size(159, 23);
+            this.cmdCambio.TabIndex = 3;
+            this.cmdCambio.Text = "Cambio frm Secundario";
+            this.cmdCambio.UseVisualStyleBackColor = true;
+            this.cmdCambio.Click += new System.EventHandler(this.cmdCambio_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(249, 343);
+            this.Controls.Add(this.cmdCambio);
             this.Controls.Add(this.lblVienvenidos);
             this.Controls.Add(this.lblejex);
             this.Controls.Add(this.lblejey);
@@ -93,5 +105,6 @@
         private System.Windows.Forms.Label lblejey;
         private System.Windows.Forms.Label lblejex;
         private System.Windows.Forms.Label lblVienvenidos;
+        private System.Windows.Forms.Button cmdCambio;
     }
 }

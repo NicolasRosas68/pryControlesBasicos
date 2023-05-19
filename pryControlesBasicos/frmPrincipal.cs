@@ -54,5 +54,12 @@ namespace pryControlesBasicos
         {
 
         }
+
+        private void cmdCambio_Click(object sender, EventArgs e)
+        {
+            frmsecundario frmsecundario = new frmsecundario();
+            frmsecundario.ShowDialog();
+
+        }
     }
 }

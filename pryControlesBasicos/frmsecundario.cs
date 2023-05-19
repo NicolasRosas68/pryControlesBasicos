@@ -36,5 +36,43 @@ namespace pryControlesBasicos
         {
 
         }
+
+        private void cmdConsultar_Click(object sender, EventArgs e)
+        {
+            string TextoContatenar = "";
+
+
+            if (chkMayo.Checked == true)
+            {
+                lblConsultar.Text = "mayo de 10"; TextoContatenar = TextoContatenar + " mayo de 10";
+            }
+
+            if (chkPicante.Checked == true)               
+            {
+                lblConsultar.Text = "picanteeee"; TextoContatenar = TextoContatenar + " picanteee";
+            }
+
+            if (chkSalsa.Checked == true)
+            {
+                lblConsultar.Text = "salsa loca"; TextoContatenar = TextoContatenar + " salsa loca";
+
+            }
+            lblConsultar.Text = TextoContatenar;
+            lstLista.Items.Add(TextoContatenar);
+            
+        }
+             
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lstLista_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            lblConsultar.Text = lstLista.Text;
+            lblConsultar.Text = lstLista.SelectedItem.ToString();
+
+        }
     }
 }
