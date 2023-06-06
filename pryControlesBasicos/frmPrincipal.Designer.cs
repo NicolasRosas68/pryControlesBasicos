@@ -38,9 +38,10 @@
             // 
             this.lblejey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblejey.AutoSize = true;
-            this.lblejey.Location = new System.Drawing.Point(182, 127);
+            this.lblejey.Location = new System.Drawing.Point(211, 242);
+            this.lblejey.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblejey.Name = "lblejey";
-            this.lblejey.Size = new System.Drawing.Size(12, 13);
+            this.lblejey.Size = new System.Drawing.Size(14, 16);
             this.lblejey.TabIndex = 0;
             this.lblejey.Text = "y";
             // 
@@ -48,9 +49,10 @@
             // 
             this.lblejex.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblejex.AutoSize = true;
-            this.lblejex.Location = new System.Drawing.Point(182, 50);
+            this.lblejex.Location = new System.Drawing.Point(58, 242);
+            this.lblejex.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblejex.Name = "lblejex";
-            this.lblejex.Size = new System.Drawing.Size(12, 13);
+            this.lblejex.Size = new System.Drawing.Size(13, 16);
             this.lblejex.TabIndex = 1;
             this.lblejex.Text = "x";
             this.lblejex.MouseMove += new System.Windows.Forms.MouseEventHandler(this.lblejex_MouseMove);
@@ -58,9 +60,10 @@
             // lblVienvenidos
             // 
             this.lblVienvenidos.AutoSize = true;
-            this.lblVienvenidos.Location = new System.Drawing.Point(32, 157);
+            this.lblVienvenidos.Location = new System.Drawing.Point(44, 53);
+            this.lblVienvenidos.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblVienvenidos.Name = "lblVienvenidos";
-            this.lblVienvenidos.Size = new System.Drawing.Size(102, 13);
+            this.lblVienvenidos.Size = new System.Drawing.Size(130, 16);
             this.lblVienvenidos.TabIndex = 2;
             this.lblVienvenidos.Text = "Nop dejes la carrera";
             this.lblVienvenidos.Visible = false;
@@ -69,9 +72,10 @@
             // 
             // cmdCambio
             // 
-            this.cmdCambio.Location = new System.Drawing.Point(35, 227);
+            this.cmdCambio.Location = new System.Drawing.Point(44, 103);
+            this.cmdCambio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmdCambio.Name = "cmdCambio";
-            this.cmdCambio.Size = new System.Drawing.Size(159, 23);
+            this.cmdCambio.Size = new System.Drawing.Size(212, 28);
             this.cmdCambio.TabIndex = 3;
             this.cmdCambio.Text = "Cambio frm Secundario";
             this.cmdCambio.UseVisualStyleBackColor = true;
@@ -79,13 +83,14 @@
             // 
             // frmPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(249, 343);
+            this.ClientSize = new System.Drawing.Size(332, 422);
             this.Controls.Add(this.cmdCambio);
             this.Controls.Add(this.lblVienvenidos);
             this.Controls.Add(this.lblejex);
             this.Controls.Add(this.lblejey);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmPrincipal";

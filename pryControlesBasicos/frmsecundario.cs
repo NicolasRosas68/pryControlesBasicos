@@ -24,7 +24,7 @@ namespace pryControlesBasicos
 
         private void txtUsuario_SelectedIndexChanged(object sender, EventArgs e)
         {
-            lblusuario.Text = txtUsuario.Text;
+            lblusuario.Text = txtusuario.Text;
         }
 
         private void frmsecundario_Load(object sender, EventArgs e)
@@ -73,6 +73,22 @@ namespace pryControlesBasicos
             lblConsultar.Text = lstLista.Text;
             lblConsultar.Text = lstLista.SelectedItem.ToString();
 
+        }
+
+        private void optAzul_CheckedChanged(object sender, EventArgs e)
+        {
+            txtusuario.ForeColor = Color.Blue;
+           
+        }
+
+        private void optRojo_CheckedChanged(object sender, EventArgs e)
+        {
+            txtusuario.ForeColor= Color.Red;
+        }
+
+        private void txtusuario_TextChanged(object sender, EventArgs e)
+        {
+            lblmostrar.Text = txtusuario.Text;  
         }
     }
 }
